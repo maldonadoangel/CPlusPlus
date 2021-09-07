@@ -16,6 +16,7 @@ int main(){
     cin>>d;
 
     resultado = (a+b)/(c+d);
+    cout.precision(2);
     cout<<"El resultado de la formula (a+b)/(c+d) es: "<<resultado<<endl;
 
     return 0;
